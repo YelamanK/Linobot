@@ -70,7 +70,6 @@ const agentConfig: ChatGPTAgentConfig = {
   promptPreamble:
     "You are an English tutor. Have a pleasant conversation, make jokes, be cool. ",
   generateResponses: false,
-  model_name: "gpt-4-0306",
   allow_agent_to_be_cut_off: true,
   end_conversation_on_goodbye: true,
   sendFillerAudio: {
