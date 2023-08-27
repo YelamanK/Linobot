@@ -66,12 +66,10 @@ const defaultSynthesizerConfig: Omit<ElevenLabsSynthesizerConfig, "samplingRate"
 
 const agentConfig: ChatGPTAgentConfig = {
   type: "agent_chat_gpt",
-  initialMessage: { type: "message_base", text: "Hi! I am Luna, I am here to help you improve your Spoken English skills. Whether you're looking to practice conversations, work on pronunciation, or learn new vocabulary, I'm here to assist you. Are you ready to have a fun chat?" },
+  initialMessage: { type: "message_base", text: "Hi! I am Leeno, I am here to help you improve your Spoken English skills. Whether you're looking to practice conversations, work on pronunciation, or learn new vocabulary, I'm here to assist you. Are you ready to have a fun chat?" },
   promptPreamble:
     "You are an English tutor. Have a pleasant conversation, make jokes, be cool. ",
   generateResponses: false,
-  allow_agent_to_be_cut_off: true,
-  end_conversation_on_goodbye: true,
   sendFillerAudio: {
     useTypingNoise: true
   }
